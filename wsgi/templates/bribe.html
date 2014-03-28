@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<title> Bribebot </title>
+{% if address %}
+<img src='https://blockchain.info/qr?data={{ address }}&size=200'>
+{% endif %}
+{% if phrase %}
+{{phrase}}
+{% endif %}
+<br>
+minimum transaction is 0.0005
